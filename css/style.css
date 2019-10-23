@@ -26,7 +26,6 @@ body {
         body header .container .navbar .collapse .navbar-nav .nav-item .dropdown button:focus, body header .container .navbar .navbar-collapse .navbar-nav .nav-item .dropdown button:focus, body header .container .navbar-expand-md .collapse .navbar-nav .nav-item .dropdown button:focus, body header .container .navbar-expand-md .navbar-collapse .navbar-nav .nav-item .dropdown button:focus {
           box-shadow: none; }
   body .reklama {
-    position: relative;
     padding-top: 140px; }
     body .reklama .container-fluid .row .col-lg-7 h1, body .reklama .container-fluid .row .col-12 h1 {
       font-weight: normal !important;
@@ -239,34 +238,30 @@ body {
         line-height: 55px; }
       body .karusel .container .row .col-12 .owl-carousel {
         margin-top: 56px; }
-        body .karusel .container .row .col-12 .owl-carousel .item .cardd {
-          margin-top: 40%;
-          border: 1px solid black !important;
-          position: relative;
+        body .karusel .container .row .col-12 .owl-carousel .item .card {
+          padding-top: 60px;
+          padding-bottom: 60px;
           transition: ease 0.5s;
           box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
           border-radius: 4px; }
-          body .karusel .container .row .col-12 .owl-carousel .item .cardd .card {
-            position: absolute;
-            border: none; }
-            body .karusel .container .row .col-12 .owl-carousel .item .cardd .card img {
-              width: 150px;
-              height: 150px; }
-            body .karusel .container .row .col-12 .owl-carousel .item .cardd .card h1 {
-              font-style: normal;
-              font-weight: bold;
-              font-size: 24px;
-              line-height: 29px; }
-            body .karusel .container .row .col-12 .owl-carousel .item .cardd .card p {
-              font-style: normal;
-              font-weight: normal;
-              font-size: 16px;
-              line-height: 19px;
-              color: #EC681F; }
-            body .karusel .container .row .col-12 .owl-carousel .item .cardd .card:hover {
-              box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.1);
-              border-radius: 4px;
-              transform: scale(1.05); }
+          body .karusel .container .row .col-12 .owl-carousel .item .card img {
+            width: 150px;
+            height: 150px; }
+          body .karusel .container .row .col-12 .owl-carousel .item .card h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px; }
+          body .karusel .container .row .col-12 .owl-carousel .item .card p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #EC681F; }
+          body .karusel .container .row .col-12 .owl-carousel .item .card:hover {
+            box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            transform: scale(1.05); }
   body footer {
     background: #FFFDF7;
     margin-top: 100px;
