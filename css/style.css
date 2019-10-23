@@ -1,0 +1,367 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #131A22; }
+  body header .bgfoto {
+    position: absolute;
+    right: 0%; }
+  body header .container .navbar, body header .container .navbar-expand-md {
+    z-index: 999; }
+    body header .container .navbar .collapse .navbar-nav .nav-item, body header .container .navbar .navbar-collapse .navbar-nav .nav-item, body header .container .navbar-expand-md .collapse .navbar-nav .nav-item, body header .container .navbar-expand-md .navbar-collapse .navbar-nav .nav-item {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      body header .container .navbar .collapse .navbar-nav .nav-item .nav-link, body header .container .navbar .navbar-collapse .navbar-nav .nav-item .nav-link, body header .container .navbar-expand-md .collapse .navbar-nav .nav-item .nav-link, body header .container .navbar-expand-md .navbar-collapse .navbar-nav .nav-item .nav-link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #131A22;
+        border-bottom: 1px solid transparent; }
+        body header .container .navbar .collapse .navbar-nav .nav-item .nav-link:hover, body header .container .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover, body header .container .navbar-expand-md .collapse .navbar-nav .nav-item .nav-link:hover, body header .container .navbar-expand-md .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+          font-weight: bold;
+          border-bottom: 1px solid #EC681F; }
+      body header .container .navbar .collapse .navbar-nav .nav-item .dropdown button, body header .container .navbar .navbar-collapse .navbar-nav .nav-item .dropdown button, body header .container .navbar-expand-md .collapse .navbar-nav .nav-item .dropdown button, body header .container .navbar-expand-md .navbar-collapse .navbar-nav .nav-item .dropdown button {
+        border: 1px solid #bfc3c6;
+        border-radius: 100px;
+        padding: 1px 10px; }
+        body header .container .navbar .collapse .navbar-nav .nav-item .dropdown button:focus, body header .container .navbar .navbar-collapse .navbar-nav .nav-item .dropdown button:focus, body header .container .navbar-expand-md .collapse .navbar-nav .nav-item .dropdown button:focus, body header .container .navbar-expand-md .navbar-collapse .navbar-nav .nav-item .dropdown button:focus {
+          box-shadow: none; }
+  body .reklama {
+    position: relative;
+    padding-top: 140px; }
+    body .reklama .container-fluid .row .col-lg-7 h1, body .reklama .container-fluid .row .col-12 h1 {
+      font-weight: normal !important;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 44px;
+      line-height: 53px; }
+    body .reklama .container-fluid .row .col-lg-7 button, body .reklama .container-fluid .row .col-12 button {
+      margin-top: 30px;
+      background-color: #EC681F;
+      color: white;
+      border-radius: 100px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      display: flex; }
+      body .reklama .container-fluid .row .col-lg-7 button::after, body .reklama .container-fluid .row .col-12 button::after {
+        content: url(../images/arrow-right.svg);
+        margin-top: 3px;
+        margin-left: 5px; }
+    body .reklama .container-fluid .row .col-lg-7 .d-inline-block, body .reklama .container-fluid .row .col-12 .d-inline-block {
+      margin-top: 70px; }
+      body .reklama .container-fluid .row .col-lg-7 .d-inline-block p::before, body .reklama .container-fluid .row .col-12 .d-inline-block p::before {
+        content: url(../images/Vector.svg);
+        margin-top: 8px; }
+    body .reklama .container-fluid .row .col-lg-5 .carousel, body .reklama .container-fluid .row .col-lg-5 .slide, body .reklama .container-fluid .row .col-12 .carousel, body .reklama .container-fluid .row .col-12 .slide {
+      margin-left: -30px; }
+  body .europrinttipografiya .container .row {
+    margin-top: 200px; }
+    body .europrinttipografiya .container .row .chap h1 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 48px; }
+    body .europrinttipografiya .container .row .chap p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 24px; }
+    body .europrinttipografiya .container .row .chap ul li {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 40px; }
+      body .europrinttipografiya .container .row .chap ul li::before {
+        content: url(../images/Rectangle6.png);
+        margin-right: 13px; }
+  body .nimauchunbiz .container .nima {
+    margin-top: 193px; }
+    body .nimauchunbiz .container .nima .nimauchun {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 46px;
+      line-height: 55px; }
+  body .nimauchunbiz .container .firstt {
+    margin-top: 136px !important; }
+  body .nimauchunbiz .container .row {
+    margin-top: 50px; }
+    body .nimauchunbiz .container .row .col-lg-6 h5, body .nimauchunbiz .container .row .col-12 h5 {
+      padding-top: 50px !important;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 24px; }
+    body .nimauchunbiz .container .row .col-lg-6 p, body .nimauchunbiz .container .row .col-12 p {
+      padding-top: 16px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 34px; }
+  body .mahsulotlar {
+    position: relative; }
+    body .mahsulotlar .topp {
+      position: absolute;
+      top: 0%;
+      right: 0%; }
+    body .mahsulotlar .bottomm {
+      position: absolute;
+      left: 0%;
+      bottom: 0%; }
+    body .mahsulotlar .container .row {
+      margin-top: 140px; }
+      body .mahsulotlar .container .row .col-lg-12 h1, body .mahsulotlar .container .row .col-12 h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 55px; }
+    body .mahsulotlar .container .mahsulotlarcard .col-lg-3 .card, body .mahsulotlar .container .mahsulotlarcard .col-6 .card, body .mahsulotlar .container .mahsulotlarcard .col-md-4 .card {
+      position: relative;
+      border-radius: 5px !important;
+      box-sizing: border-box;
+      overflow: hidden; }
+      body .mahsulotlar .container .mahsulotlarcard .col-lg-3 .card img, body .mahsulotlar .container .mahsulotlarcard .col-6 .card img, body .mahsulotlar .container .mahsulotlarcard .col-md-4 .card img {
+        transition: ease 0.6s;
+        border-radius: 5px !important; }
+      body .mahsulotlar .container .mahsulotlarcard .col-lg-3 .card .imghover, body .mahsulotlar .container .mahsulotlarcard .col-6 .card .imghover, body .mahsulotlar .container .mahsulotlarcard .col-md-4 .card .imghover {
+        transition: ease 0.6s;
+        border-radius: 5px;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: black;
+        padding-top: 25%; }
+        body .mahsulotlar .container .mahsulotlarcard .col-lg-3 .card .imghover p, body .mahsulotlar .container .mahsulotlarcard .col-6 .card .imghover p, body .mahsulotlar .container .mahsulotlarcard .col-md-4 .card .imghover p {
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 22px;
+          color: #FFFFFF; }
+        body .mahsulotlar .container .mahsulotlarcard .col-lg-3 .card .imghover a, body .mahsulotlar .container .mahsulotlarcard .col-6 .card .imghover a, body .mahsulotlar .container .mahsulotlarcard .col-md-4 .card .imghover a {
+          margin-top: 5px;
+          padding-top: 0;
+          display: block;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 17px;
+          color: #EC681F; }
+        body .mahsulotlar .container .mahsulotlarcard .col-lg-3 .card .imghover button, body .mahsulotlar .container .mahsulotlarcard .col-6 .card .imghover button, body .mahsulotlar .container .mahsulotlarcard .col-md-4 .card .imghover button {
+          margin-top: 20%;
+          background: #EC681F;
+          border-radius: 15.5px;
+          font-style: +normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 17px;
+          color: #FFFFFF; }
+      body .mahsulotlar .container .mahsulotlarcard .col-lg-3 .card:hover .imghover, body .mahsulotlar .container .mahsulotlarcard .col-6 .card:hover .imghover, body .mahsulotlar .container .mahsulotlarcard .col-md-4 .card:hover .imghover {
+        opacity: 0.8; }
+      body .mahsulotlar .container .mahsulotlarcard .col-lg-3 .card:hover img, body .mahsulotlar .container .mahsulotlarcard .col-6 .card:hover img, body .mahsulotlar .container .mahsulotlarcard .col-md-4 .card:hover img {
+        transform: scale(1.2); }
+  body .bziningximatlar {
+    margin-top: 90px; }
+    body .bziningximatlar .fon1 {
+      position: absolute;
+      right: 0%; }
+    body .bziningximatlar .container {
+      padding-top: 100px; }
+      body .bziningximatlar .container .row .col-lg-6 h1, body .bziningximatlar .container .row .col-12 h1 {
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 55px; }
+      body .bziningximatlar .container .row .col-lg-6 p, body .bziningximatlar .container .row .col-12 p {
+        padding-top: 18px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px; }
+      body .bziningximatlar .container .row .col-lg-6 .row .col-lg-4 a, body .bziningximatlar .container .row .col-lg-6 .row .col-6 a, body .bziningximatlar .container .row .col-12 .row .col-lg-4 a, body .bziningximatlar .container .row .col-12 .row .col-6 a {
+        text-decoration: none;
+        color: #131A22; }
+        body .bziningximatlar .container .row .col-lg-6 .row .col-lg-4 a .card, body .bziningximatlar .container .row .col-lg-6 .row .col-6 a .card, body .bziningximatlar .container .row .col-12 .row .col-lg-4 a .card, body .bziningximatlar .container .row .col-12 .row .col-6 a .card {
+          transition: ease 0.3s;
+          background: #FFFFFF;
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12);
+          border-radius: 4px; }
+          body .bziningximatlar .container .row .col-lg-6 .row .col-lg-4 a .card img, body .bziningximatlar .container .row .col-lg-6 .row .col-6 a .card img, body .bziningximatlar .container .row .col-12 .row .col-lg-4 a .card img, body .bziningximatlar .container .row .col-12 .row .col-6 a .card img {
+            padding-top: 50px;
+            width: 120px;
+            height: 120px; }
+          body .bziningximatlar .container .row .col-lg-6 .row .col-lg-4 a .card p, body .bziningximatlar .container .row .col-lg-6 .row .col-6 a .card p, body .bziningximatlar .container .row .col-12 .row .col-lg-4 a .card p, body .bziningximatlar .container .row .col-12 .row .col-6 a .card p {
+            margin-top: 27px;
+            transition: ease 0.2s;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px; }
+          body .bziningximatlar .container .row .col-lg-6 .row .col-lg-4 a .card:hover, body .bziningximatlar .container .row .col-lg-6 .row .col-6 a .card:hover, body .bziningximatlar .container .row .col-12 .row .col-lg-4 a .card:hover, body .bziningximatlar .container .row .col-12 .row .col-6 a .card:hover {
+            box-shadow: 15px 35px 40px rgba(0, 0, 0, 0.1);
+            transform: scale(1.2); }
+          body .bziningximatlar .container .row .col-lg-6 .row .col-lg-4 a .card:hover p, body .bziningximatlar .container .row .col-lg-6 .row .col-6 a .card:hover p, body .bziningximatlar .container .row .col-12 .row .col-lg-4 a .card:hover p, body .bziningximatlar .container .row .col-12 .row .col-6 a .card:hover p {
+            font-size: 17px; }
+  body .bizningmijozlar .fon2 {
+    position: absolute;
+    right: 0%; }
+  body .bizningmijozlar .container {
+    margin-top: 193px; }
+    body .bizningmijozlar .container .col-lg-5, body .bizningmijozlar .container .col-12 {
+      margin-top: 95px; }
+      body .bizningmijozlar .container .col-lg-5 h1, body .bizningmijozlar .container .col-12 h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 55px; }
+      body .bizningmijozlar .container .col-lg-5 p, body .bizningmijozlar .container .col-12 p {
+        margin-top: 28px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px; }
+  body .karusel {
+    margin-top: 263px; }
+    body .karusel .fon3 {
+      position: absolute;
+      left: 0%; }
+    body .karusel .container {
+      padding-top: 100px; }
+      body .karusel .container .row .col-12 h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 55px; }
+      body .karusel .container .row .col-12 .owl-carousel {
+        margin-top: 56px; }
+        body .karusel .container .row .col-12 .owl-carousel .item .cardd {
+          margin-top: 40%;
+          border: 1px solid black !important;
+          position: relative;
+          transition: ease 0.5s;
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+          border-radius: 4px; }
+          body .karusel .container .row .col-12 .owl-carousel .item .cardd .card {
+            position: absolute;
+            border: none; }
+            body .karusel .container .row .col-12 .owl-carousel .item .cardd .card img {
+              width: 150px;
+              height: 150px; }
+            body .karusel .container .row .col-12 .owl-carousel .item .cardd .card h1 {
+              font-style: normal;
+              font-weight: bold;
+              font-size: 24px;
+              line-height: 29px; }
+            body .karusel .container .row .col-12 .owl-carousel .item .cardd .card p {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 19px;
+              color: #EC681F; }
+            body .karusel .container .row .col-12 .owl-carousel .item .cardd .card:hover {
+              box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.1);
+              border-radius: 4px;
+              transform: scale(1.05); }
+  body footer {
+    background: #FFFDF7;
+    margin-top: 100px;
+    padding-top: 70px; }
+    body footer .container .row .col-12 p {
+      margin-top: 44px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      opacity: 0.5; }
+    body footer .container .row .col-lg-2 h5, body footer .container .row .col-6 h5 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px; }
+    body footer .container .row .col-lg-2 ul, body footer .container .row .col-6 ul {
+      margin-top: 20px; }
+      body footer .container .row .col-lg-2 ul li a, body footer .container .row .col-6 ul li a {
+        text-decoration: none;
+        padding-top: 16px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #131A22;
+        opacity: 0.5; }
+        body footer .container .row .col-lg-2 ul li a:hover, body footer .container .row .col-6 ul li a:hover {
+          color: blue; }
+    body footer .container .row .col-lg-6 p, body footer .container .row .col-6 p {
+      margin-top: 15px; }
+    body footer .container .row .col-lg-6 .firsttt::before, body footer .container .row .col-6 .firsttt::before {
+      content: url(../images/Vector.svg);
+      margin-top: 8px; }
+    body footer .container .foot {
+      margin-top: 70px; }
+      body footer .container .foot .dropdown button {
+        border: 1px solid #bfc3c6;
+        border-radius: 100px;
+        padding: 1px 10px; }
+        body footer .container .foot .dropdown button:focus {
+          box-shadow: none; }
+      body footer .container .foot .col-lg-2 a i, body footer .container .foot .col-6 a i {
+        color: #131A22;
+        opacity: 0.2;
+        width: 32px;
+        height: 32px; }
+        body footer .container .foot .col-lg-2 a i:hover, body footer .container .foot .col-6 a i:hover {
+          color: #EC681F;
+          opacity: 1; }
+      body footer .container .foot .col-lg-3 p, body footer .container .foot .col-6 p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px; }
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  opacity: 0.1; }
+
+.carousel-indicators {
+  display: inherit;
+  top: 10%;
+  left: 80%; }
+
+.carousel-indicators .active {
+  background-color: black;
+  opacity: 0.5; }
+
+@media screen and (max-width: 800px) {
+  body header .bgfoto {
+    width: 60%; }
+  body header .container .navbar .collapse .navbar-nav .nav-item, body header .container .navbar .navbar-collapse .navbar-nav .nav-item, body header .container .navbar-expand-md .collapse .navbar-nav .nav-item, body header .container .navbar-expand-md .navbar-collapse .navbar-nav .nav-item {
+    padding: 2px; }
+  body .reklama {
+    padding-top: 50px; }
+    body .reklama .container-fluid .row .col-lg-7 h1, body .reklama .container-fluid .row .col-12 h1 {
+      font-size: 35px; }
+    body .reklama .container-fluid .row .col-lg-7 button img, body .reklama .container-fluid .row .col-12 button img {
+      display: inline-block; }
+    body .reklama .container-fluid .row .col-lg-7 .d-inline-block, body .reklama .container-fluid .row .col-12 .d-inline-block {
+      margin-top: 70px; }
+    body .reklama .container-fluid .row .col-lg-5 img, body .reklama .container-fluid .row .col-12 img {
+      margin-top: 50px; }
+  body .europrinttipografiya .container .row {
+    margin-top: 50px; }
+    body .europrinttipografiya .container .row .ong img {
+      width: 350px; }
+    body .europrinttipografiya .container .row .chap p {
+      text-align: justify;
+      padding: 15px; }
+  body .nimauchunbiz .container .row .col-lg-6 img, body .nimauchunbiz .container .row .col-12 img {
+    width: 300px; } }
+
+/*# sourceMappingURL=style.css.map */
