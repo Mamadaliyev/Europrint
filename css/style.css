@@ -26,6 +26,7 @@ body {
         body header .container .navbar .collapse .navbar-nav .nav-item .dropdown button:focus, body header .container .navbar .navbar-collapse .navbar-nav .nav-item .dropdown button:focus, body header .container .navbar-expand-md .collapse .navbar-nav .nav-item .dropdown button:focus, body header .container .navbar-expand-md .navbar-collapse .navbar-nav .nav-item .dropdown button:focus {
           box-shadow: none; }
   body .reklama {
+    display: block;
     padding-top: 140px; }
     body .reklama .container-fluid .row .col-lg-7 h1, body .reklama .container-fluid .row .col-12 h1 {
       font-weight: normal !important;
