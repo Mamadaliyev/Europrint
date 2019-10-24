@@ -152,7 +152,7 @@ body {
           line-height: 17px;
           color: #EC681F; }
         body .mahsulotlar .container .mahsulotlarcard .col-lg-3 .card .imghover button, body .mahsulotlar .container .mahsulotlarcard .col-6 .card .imghover button, body .mahsulotlar .container .mahsulotlarcard .col-md-4 .card .imghover button {
-          margin-top: 20%;
+          margin-top: 35%;
           background: #EC681F;
           border-radius: 15.5px;
           font-style: +normal;
@@ -212,6 +212,10 @@ body {
     right: 0%; }
   body .bizningmijozlar .container {
     margin-top: 193px; }
+    body .bizningmijozlar .container .col-lg-6 .row .col .card1, body .bizningmijozlar .container .col-12 .row .col .card1 {
+      opacity: 0.3; }
+    body .bizningmijozlar .container .col-lg-6 .row .col .card2, body .bizningmijozlar .container .col-12 .row .col .card2 {
+      opacity: 0.7; }
     body .bizningmijozlar .container .col-lg-5, body .bizningmijozlar .container .col-12 {
       margin-top: 95px; }
       body .bizningmijozlar .container .col-lg-5 h1, body .bizningmijozlar .container .col-12 h1 {
@@ -336,28 +340,40 @@ body {
   opacity: 0.5; }
 
 @media screen and (max-width: 800px) {
-  body header .bgfoto {
-    width: 60%; }
-  body header .container .navbar .collapse .navbar-nav .nav-item, body header .container .navbar .navbar-collapse .navbar-nav .nav-item, body header .container .navbar-expand-md .collapse .navbar-nav .nav-item, body header .container .navbar-expand-md .navbar-collapse .navbar-nav .nav-item {
-    padding: 2px; }
-  body .reklama {
-    padding-top: 50px; }
-    body .reklama .container-fluid .row .col-lg-7 h1, body .reklama .container-fluid .row .col-12 h1 {
-      font-size: 35px; }
-    body .reklama .container-fluid .row .col-lg-7 button img, body .reklama .container-fluid .row .col-12 button img {
-      display: inline-block; }
-    body .reklama .container-fluid .row .col-lg-7 .d-inline-block, body .reklama .container-fluid .row .col-12 .d-inline-block {
-      margin-top: 70px; }
-    body .reklama .container-fluid .row .col-lg-5 img, body .reklama .container-fluid .row .col-12 img {
+  body {
+    overflow-x: hidden; }
+    body header .bgfoto {
+      width: 60%; }
+    body header .container .navbar .collapse .navbar-nav .nav-item, body header .container .navbar .navbar-collapse .navbar-nav .nav-item, body header .container .navbar-expand-md .collapse .navbar-nav .nav-item, body header .container .navbar-expand-md .navbar-collapse .navbar-nav .nav-item {
+      padding: 2px; }
+    body .reklama {
+      padding-top: 50px; }
+      body .reklama .container-fluid .row .col-lg-7 h1, body .reklama .container-fluid .row .col-12 h1 {
+        font-size: 35px; }
+      body .reklama .container-fluid .row .col-lg-7 button img, body .reklama .container-fluid .row .col-12 button img {
+        display: inline-block; }
+      body .reklama .container-fluid .row .col-lg-7 .d-inline-block, body .reklama .container-fluid .row .col-12 .d-inline-block {
+        margin-top: 70px; }
+      body .reklama .container-fluid .row .col-lg-5 img, body .reklama .container-fluid .row .col-12 img {
+        margin-top: 50px; }
+    body .europrinttipografiya .container .row {
       margin-top: 50px; }
-  body .europrinttipografiya .container .row {
-    margin-top: 50px; }
-    body .europrinttipografiya .container .row .ong img {
-      width: 350px; }
-    body .europrinttipografiya .container .row .chap p {
-      text-align: justify;
-      padding: 15px; }
-  body .nimauchunbiz .container .row .col-lg-6 img, body .nimauchunbiz .container .row .col-12 img {
-    width: 300px; } }
+      body .europrinttipografiya .container .row .ong img {
+        width: 350px; }
+      body .europrinttipografiya .container .row .chap p {
+        text-align: justify;
+        padding: 15px; }
+    body .nimauchunbiz .container .row .col-lg-6 img, body .nimauchunbiz .container .row .col-12 img {
+      width: 300px; }
+    body .mahsulotlar .container .mahsulotlarcard .col-lg-3 .card .imghover p, body .mahsulotlar .container .mahsulotlarcard .col-6 .card .imghover p, body .mahsulotlar .container .mahsulotlarcard .col-md-4 .card .imghover p {
+      font-size: 12px; }
+    body .mahsulotlar .container .mahsulotlarcard .col-lg-3 .card .imghover a, body .mahsulotlar .container .mahsulotlarcard .col-6 .card .imghover a, body .mahsulotlar .container .mahsulotlarcard .col-md-4 .card .imghover a {
+      font-size: 10px; }
+    body .mahsulotlar .container .mahsulotlarcard .col-lg-3 .card .imghover button, body .mahsulotlar .container .mahsulotlarcard .col-6 .card .imghover button, body .mahsulotlar .container .mahsulotlarcard .col-md-4 .card .imghover button {
+      padding: 2px 6px;
+      margin-top: 15%;
+      font-size: 10px; }
+    body .karusel {
+      margin-top: 70px; } }
 
 /*# sourceMappingURL=style.css.map */
